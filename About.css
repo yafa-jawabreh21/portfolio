@@ -1,0 +1,77 @@
+.Container-About{
+    display: block;
+    height: 100vh;
+    background-color: #0d1224;
+    justify-content: center;
+    align-items: center;
+
+}
+.Container-Skills{
+    display: block;
+    height: 100vh;
+    background-color: #0d1224;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.About-container{
+    display: flex;
+    height: 45%;
+    width: 175vh;
+    margin: 13%;
+    scroll-snap-align: start;
+    
+}
+.Skills-container{
+    width: inherit;
+   
+    scroll-snap-align: start;
+    
+}
+
+.About {
+    height: 25%;
+    margin-top: 2%;
+    
+}
+.image{
+    display: block;
+    height: 25%;
+    margin-top: 2%;
+    width: 48%;
+}
+
+.About p {
+    font-family: "space mono";
+    color: #ccf381;
+}
+.div-border{
+    height: 284px;
+    width: 50%;
+    border: 2px solid white;
+    float: right;
+    position: relative;
+    right: 29%;
+    top: 10%;
+
+}
+.div-image{
+    width: 50%;
+    display: flex;
+    height: 284px;
+    margin-top: -3.435em;
+    background-color: #fff;
+    background-image: url(/src/logo.svg);
+    position: relative;
+    left: 17%;
+    background-repeat: no-repeat;
+    top: 18%;
+
+}
+.Navbar{
+    height: 10%;
+    width: auto;
+    background-color: #0d1224;
+    /* display: block; */
+}

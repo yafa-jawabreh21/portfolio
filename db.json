@@ -1,0 +1,83 @@
+{"Skills":[
+    
+    {
+        "id": 1,
+        "name": "HtML",
+        "image": ""
+    },
+    {
+        "id": 2,
+        "name": "CSS",
+        "image": ""
+    },
+    {
+        "id": 3,
+        "name": "JS",
+        "image": ""
+    },
+    {
+        "id": 4,
+        "name": "React",
+        "image": ""
+    },
+    {
+        "id": 5,
+        "name": "Redux",
+        "image": ""
+    },
+    {
+        "id": 6,
+        "name": "TailwindCss",
+        "image": ""
+    },{
+        "id": 7,
+        "name": "Python",
+        "image": ""
+    },
+    {
+        "id": 8,
+        "name": "MySQL",
+        "image": ""
+    },{
+        "id": 9,
+        "name": "Figma",
+        "image": ""
+    },
+    {
+        "id": 10,
+        "name": "Git",
+        "image": ""
+    },{
+        "id": 11,
+        "name": "Bootstrap",
+        "image": ""
+    }
+],
+"Projects":[
+    {
+        "id": 1,
+        "name": "PPU Registeration System",
+        "tools":["HTML","CSS","JS","Bootstrap","Web2py","Python","MySQL"],
+        "myRole": "Fullstack Developer",
+        "Description":"Me and my team built a ppu registeration system. we use frontend tools like : HtML , CSS , JS and Bootstrap and we use Backend framework which called Web2py which use Python programming language. Also we use MySql as database. This system is used to register ppu in our University."
+    },
+    {
+        "id": 2,
+        "name": "Wood Furniture Website",
+        "tools":["HTML","CSS","JS","Bootstrap","React","Redux"],
+        "myRole": "Frontend Developer",
+        "Description":"I built a simple Wood furniture website. I use frontend tools like : HtML , CSS , JS , React ,Redux and Bootstrap.This system is used View all furniture product with all details like: price , description , images and etc. Then Users can View and Put specific product on Cart and then complete their purchased."
+
+    },
+    {
+        "id": 3,
+        "name": "Hebron City Guide Website",
+        "tools":["HTML","CSS","JS","Bootstrap","Web2py","Python","MySQL","RASA"],
+        "myRole": "Fullstack Developer",
+        "Description":"Me and my team built a City guide website . we use frontend tools like : HtML , CSS , JS and Bootstrap and we use Backend framework which called Web2py which use Python programming language. Also we use MySql as database. This system is used to view all places in hebron city with all details like : location , description , image and etc. Also we use this system to add new places and edit existing places . Also have an event and advertisement section. Also have an AI chatbot to help answer users' inquiries about the site and the places in it."
+
+    }
+
+
+]
+}
