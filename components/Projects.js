@@ -4,7 +4,7 @@ function Projects() {
   return (
     <>
       <div id="section3" className="projects bg-customm h-2/5 flex flex-col ">
-        <h1 className="font-black  font-mono text-yellow-50 text-4xl ml-auto mr-auto pt-16 pb-16 mt-14 mb-0">
+        <h1 className="font-black  font-mono text-yellow-50 text-4xl ml-auto mr-auto pt-16 md:pb-16 mt-14 mb-0">
           My recent{" "}
           <span className="text-teal-400 font-sans font-bold">Work</span>
         </h1>
@@ -13,13 +13,13 @@ function Projects() {
 
 
 
-        <div class="relative flex flex-col px-4 pt-24 pb-12 font-sans text-gray-700 bg-customm sm:px-6 lg:px-8 min-h-lvh">
+        <div class="relative flex flex-col px-4  pt-16 md:pt-24 pb-12 font-sans text-gray-700 bg-customm sm:px-6 lg:px-8 min-h-lvh">
           <div class="flex-1 space-y-8">
             <div
               style={{ top: "calc(1rem * 1)" }}
-              class="sticky w-full  px-28 py-12 mx-72 space-y-4 "
+              class="sticky w-full  xl:px-28 xl:py-12 xl:mx-72 space-y-4 "
             >
-              <div className="image">
+              <div className="image sm:w-auto lg:w-1/2">
                 <div className="div-top h-14 bg-customm border border-blue-950 flex gap-3 pt-4 pl-4 rounded-md">
                   <div className="circle1 h-3 w-3 rounded-full bg-red-400"></div>
                   <div className="circle2 h-3 w-3 rounded-full bg-orange-400"></div>
@@ -84,9 +84,9 @@ function Projects() {
 
             <div
               style={{ top: "calc(1rem * 2)" }}
-              class="sticky w-full  px-28 py-12 mx-72 space-y-4 "
+              class="sticky w-full  xl:px-28 xl:py-12 xl:mx-72 space-y-4  "
             >
-              <div className="image">
+              <div className="image sm:w-auto lg:w-1/2">
                 <div className="div-top h-14 bg-customm border border-blue-950 flex gap-3 pt-4 pl-4 rounded-md">
                   <div className="circle1 h-3 w-3 rounded-full bg-red-400"></div>
                   <div className="circle2 h-3 w-3 rounded-full bg-orange-400"></div>
@@ -148,9 +148,9 @@ function Projects() {
             </div>
             <div
               style={{ top: "calc(1rem * 3)" }}
-              class="sticky w-full  px-28 py-12 mx-72 space-y-4 "
+              class="sticky w-full  xl:px-28 xl:py-12 xl:mx-72 space-y-4  "
             >
-              <div className="image">
+              <div className="image sm:w-auto lg:w-1/2">
                 <div className="div-top h-14 bg-customm border border-blue-950 flex gap-3 pt-4 pl-4 rounded-md">
                   <div className="circle1 h-3 w-3 rounded-full bg-red-400"></div>
                   <div className="circle2 h-3 w-3 rounded-full bg-orange-400"></div>

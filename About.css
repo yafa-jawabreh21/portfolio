@@ -8,7 +8,7 @@
 }
 .Container-Skills{
     display: block;
-    height: 100vh;
+    /* height: 100vh; */
     background-color: #0d1224;
     justify-content: center;
     align-items: center;
@@ -16,9 +16,9 @@
 }
 
 .About-container{
-    display: flex;
+    /* display: flex; */
     height: 45%;
-    width: 175vh;
+    /* width: 175vh; */
     margin: 13%;
     scroll-snap-align: start;
     
@@ -31,15 +31,15 @@
 }
 
 .About {
-    height: 25%;
+    /* height: 25%; */
     margin-top: 2%;
     
 }
 .image{
     display: block;
     height: 25%;
-    margin-top: 2%;
-    width: 48%;
+    /* margin-top: 2%; */
+    /* width: 48%; */
 }
 
 .About p {

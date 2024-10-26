@@ -8,7 +8,7 @@ return (
             <div className="Logo font-extrabold text-4xl text-purple-900 pl-5 pt-5">
                 <a href="/"><h1>YAFA</h1></a>
             </div>
-            <div className='Navbar-links relative left-96 ml-96 mt-7 '>
+            <div className='Navbar-links relative left-96 ml-96 mt-7 sm:hidden'>
             <ul className='font-extralight text-xl text-white list-none flex gap-8'>
             <a href="/#section1"><li className='hover:text-purple-900 duration-300 hover:font-bold'>About</li></a>
             <a href="/Skills/#section2"><li className='hover:text-purple-900 duration-300 hover:font-bold'>Skills</li></a>
@@ -17,9 +17,9 @@ return (
             </ ul>
             </div>
         </div>
-        <div id="section1" className="About-container snap-start flex gap-60 mt-36 " data-aos="fade-up">
+        <div id="section1" className="About-container snap-start block md:flex lg:gap-60 md:mt-36 " data-aos="fade-up">
             <div className="About block">
-                <h1 className='text-3xl font-bold leading-10 text-white md:font-extrabold lg:text-[2.6rem] lg:leading-[3.5rem]'>Hello,<br></br>
+                <h1 className='text-3xl font-bold leading-10 text-white md:font-extrabold lg:text-[2.6rem] lg:leading-[3.5rem] '>Hello,<br></br>
                 This is <span className='text-purple-400'>YAFA</span> , I'm <br></br> a <span className='text-teal-400'>Web Developer</span>.</h1>
                  
                 <div className='flex gap-7 mt-6 mr-28 ml-28  '>
@@ -35,7 +35,7 @@ return (
                 </div> */}
 
             </div>
-            <div className="image">
+            <div className="image sm:mt-14 sm:mb-24 w-fit">
                 <div className="div-top w-auto h-11 bg-customm border border-blue-950 flex gap-3 pt-4 pl-4 rounded-md">
                     <div className='circle1 h-3 w-3 rounded-full bg-red-400'></div>
                     <div className='circle2 h-3 w-3 rounded-full bg-orange-400'></div>
