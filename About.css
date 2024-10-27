@@ -31,15 +31,14 @@
 }
 
 .About {
-    /* height: 25%; */
+    
     margin-top: 2%;
     
 }
 .image{
     display: block;
     height: 25%;
-    /* margin-top: 2%; */
-    /* width: 48%; */
+
 }
 
 .About p {
