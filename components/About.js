@@ -4,19 +4,55 @@ function About () {
 return (
     <>
     <div className="Container-About">
-        <div className="Navbar flex border border-blue-900 border-x-0">
-            <div className="Logo font-extrabold text-4xl text-purple-900 pl-5 pt-5">
-                <a href="/"><h1>YAFA</h1></a>
-            </div>
-            <div className='Navbar-links relative left-96 ml-96 mt-7 sm:hidden'>
-            <ul className='font-extralight text-xl text-white list-none flex gap-8'>
-            <a href="/#section1"><li className='hover:text-purple-900 duration-300 hover:font-bold'>About</li></a>
-            <a href="/Skills/#section2"><li className='hover:text-purple-900 duration-300 hover:font-bold'>Skills</li></a>
-            <a href="/Projects/#section3"><li className='hover:text-purple-900 duration-300 hover:font-bold'>Projects</li></a>
-            <a href="/"><li className='hover:text-purple-900 duration-300 hover:font-bold'>Resume</li></a>
-            </ ul>
-            </div>
-        </div>
+    <div className="Navbar flex border border-blue-900 border-x-0 p-4 justify-between items-center bg-white">
+  <div className="Logo font-extrabold text-4xl text-purple-900">
+    <a href="/"><h1>YAFA</h1></a>
+  </div>
+
+  {/* Mobile Menu Button */}
+  <button
+    type="button"
+    className="inline-flex items-center p-2 w-10 h-10 justify-center text-sm text-gray-500 rounded-lg md:hidden hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-200"
+    data-collapse-toggle="navbar-default"
+    aria-controls="navbar-default"
+    aria-expanded="false"
+    onClick={() => document.getElementById('navbar-default').classList.toggle('hidden')}
+  >
+    <span className="sr-only">Open main menu</span>
+    <svg className="w-5 h-5" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 17 14">
+      <path stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M1 1h15M1 7h15M1 13h15" />
+    </svg>
+  </button>
+
+  {/* Navbar Links */}
+  <div className="hidden w-full md:block md:w-auto" id="navbar-default">
+  <ul className='font-extralight text-xl text-white list-none flex gap-8'>
+
+<a href="/#section1"><li className='hover:text-purple-900 duration-300 hover:font-bold'>About</li></a>
+
+<a href="/Skills/#section2"><li className='hover:text-purple-900 duration-300 hover:font-bold'>Skills</li></a>
+
+<a href="/Projects/#section3"><li className='hover:text-purple-900 duration-300 hover:font-bold'>Projects</li></a>
+
+<a href="/"><li className='hover:text-purple-900 duration-300 hover:font-bold'>Resume</li></a>
+
+</ ul>
+    {/* <ul className="font-medium flex flex-col md:flex-row md:space-x-8 border border-gray-100 rounded-lg bg-gray-50 md:bg-white p-4 md:p-0 mt-4 md:mt-0">
+      <li>
+        <a href="/#section1" className="block py-2 px-3 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:p-0">About</a>
+      </li>
+      <li>
+        <a href="/Skills/#section2" className="block py-2 px-3 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:p-0">Skills</a>
+      </li>
+      <li>
+        <a href="/Projects/#section3" className="block py-2 px-3 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:p-0">Projects</a>
+      </li>
+      <li>
+        <a href="/" className="block py-2 px-3 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:p-0">Resume</a>
+      </li>
+    </ul> */}
+  </div>
+</div>
         <div id="section1" className="About-container snap-start block md:flex lg:gap-60 md:mt-36 " data-aos="fade-up">
             <div className="About block">
                 <h1 className='text-3xl font-bold leading-10 text-white md:font-extrabold lg:text-[2.6rem] lg:leading-[3.5rem] '>Hello,<br></br>
