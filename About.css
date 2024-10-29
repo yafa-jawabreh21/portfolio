@@ -8,7 +8,6 @@
 }
 .Container-Skills{
     display: block;
-    
     background-color: #0d1224;
     justify-content: center;
     align-items: center;
@@ -25,20 +24,15 @@
 }
 .Skills-container{
     width: inherit;
-   
     scroll-snap-align: start;
-    
 }
 
 .About {
-
     margin-top: 2%;
-    
 }
 .image{
     display: block;
     height: 25%;
-
 }
 
 .About p {
